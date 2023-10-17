@@ -7,3 +7,22 @@
 
 Most of the functions presented in this project were adapted from the <a href="https://planetarycomputer.microsoft.com/dataset/sentinel-1-rtc#Example-Notebook">Sentinel-1-RTC notebook</a> found in the Planetary Computer portal.</p>
     
+<p>The selected model was the Random Forrest Classifier with a 99.44% Accuracy </p>
+
+```
+Classification Report::
+              precision    recall  f1-score   support
+
+    Non Rice       1.00      0.99      0.99        90
+        Rice       0.99      1.00      0.99        90
+         
+
+    accuracy                           0.99       180
+   macro avg       0.99      0.99      0.99       180
+weighted avg       0.99      0.99      0.99       180
+```
+
+<body style="background-color:white;">
+    <h1>Confusion Matrix </h1>
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/78315034/275924492-a033de9b-d03d-4167-a6e3-37292ce4bf12.png">
+</body>
